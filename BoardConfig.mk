@@ -146,7 +146,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Override default hw variant
-OVERRIDE_QCOM_HARDWARE_VARIANT := sm8150_ginkgo
+OVERRIDE_QCOM_HARDWARE_VARIANT := sm8150-ginkgo
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
