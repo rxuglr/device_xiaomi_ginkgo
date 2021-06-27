@@ -30,3 +30,5 @@ git clone https://github.com/ArrowOS/android_vendor_qcom_opensource_interfaces.g
 git clone https://github.com/ThankYouMario/proprietary_vendor_qcom_sdclang.git -b ruby-12 prebuilts/clang/host/linux-x86/clang-sdllvm
 cp hardware/qcom-caf/sm8150/Android.bp hardware/qcom-caf/sm8150-ginkgo/
 cp hardware/qcom-caf/sm8150/Android.mk hardware/qcom-caf/sm8150-ginkgo/
+git clone https://github.com/rxuglr/vendor_xiaomi_ginkgo.git vendor/xiaomi/ginkgo
+rm -rf device/xiaomi/ginkgo/vendorsetup.sh
