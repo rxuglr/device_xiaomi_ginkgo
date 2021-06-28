@@ -12,6 +12,8 @@ rm -rf vendor/nxp/opensource/commonsys/frameworks
 rm -rf vendor/nxp/opensource/commonsys/packages/apps/Nfc
 rm -rf vendor/nxp/opensource/sn100x/halimpl
 rm -rf vendor/nxp/opensource/sn100x/hidlimpl
+rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+rm -rf vendor/xiaomi/ginkgo
 git clone https://github.com/LineageOS/android_hardware_broadcom_nfc.git hardware/broadcom/nfc
 git clone https://github.com/LineageOS/android_hardware_nxp_nfc.git hardware/nxp/nfc
 git clone https://github.com/LineageOS/android_packages_apps_Nfc.git packages/apps/Nfc
@@ -28,6 +30,8 @@ git clone https://github.com/ArrowOS/android_hardware_qcom_media.git -b arrow-11
 git clone https://github.com/ArrowOS/android_vendor_qcom_opensource_power.git vendor/qcom/opensource/power
 git clone https://github.com/ArrowOS/android_vendor_qcom_opensource_interfaces.git vendor/qcom/opensource/interfaces
 git clone https://github.com/ThankYouMario/proprietary_vendor_qcom_sdclang.git -b ruby-12 prebuilts/clang/host/linux-x86/clang-sdllvm
+git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9 prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+mkdir -p hardware/qcom-caf/sm8150-ginkgo
 cp hardware/qcom-caf/sm8150/Android.bp hardware/qcom-caf/sm8150-ginkgo/
 cp hardware/qcom-caf/sm8150/Android.mk hardware/qcom-caf/sm8150-ginkgo/
 git clone https://github.com/rxuglr/vendor_xiaomi_ginkgo.git vendor/xiaomi/ginkgo
