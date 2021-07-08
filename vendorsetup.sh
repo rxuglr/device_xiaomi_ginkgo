@@ -34,5 +34,5 @@ git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_a
 mkdir -p hardware/qcom-caf/sm8150-ginkgo
 cp hardware/qcom-caf/sm8150/Android.bp hardware/qcom-caf/sm8150-ginkgo/
 cp hardware/qcom-caf/sm8150/Android.mk hardware/qcom-caf/sm8150-ginkgo/
-git clone https://github.com/rxuglr/vendor_xiaomi_ginkgo.git vendor/xiaomi/ginkgo
+git clone https://github.com/Wave-Project/vendor_xiaomi_ginkgo vendor/xiaomi/ginkgo
 rm -rf device/xiaomi/ginkgo/vendorsetup.sh
