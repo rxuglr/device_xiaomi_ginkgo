@@ -14,6 +14,7 @@ rm -rf vendor/nxp/opensource/sn100x/halimpl
 rm -rf vendor/nxp/opensource/sn100x/hidlimpl
 rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 rm -rf vendor/xiaomi/ginkgo
+rm -rf kernel/xiaomi/ginkgo
 git clone https://github.com/LineageOS/android_hardware_broadcom_nfc.git hardware/broadcom/nfc
 git clone https://github.com/LineageOS/android_hardware_nxp_nfc.git hardware/nxp/nfc
 git clone https://github.com/LineageOS/android_packages_apps_Nfc.git packages/apps/Nfc
@@ -35,4 +36,5 @@ mkdir -p hardware/qcom-caf/sm8150-ginkgo
 cp hardware/qcom-caf/sm8150/Android.bp hardware/qcom-caf/sm8150-ginkgo/
 cp hardware/qcom-caf/sm8150/Android.mk hardware/qcom-caf/sm8150-ginkgo/
 git clone https://github.com/Wave-Project/vendor_xiaomi_ginkgo vendor/xiaomi/ginkgo
+git clone https://github.com/ghostrider-reborn/android_kernel_xiaomi_ginkgo kernel/xiaomi/ginkgo
 rm -rf device/xiaomi/ginkgo/vendorsetup.sh
